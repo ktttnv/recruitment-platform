@@ -1,0 +1,74 @@
+@import '../../styles/mixins';
+
+.candidateInfo {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    @include media('min', 'tablet') {
+        flex-direction: row;
+    }
+
+    li {
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        @include media('min', 'mobile') {
+            flex-direction: row;
+        }
+
+        @include media('min', 'tablet') {
+            flex-direction: column;
+        }
+    }
+
+    .prop {
+        color: rgba(165, 165, 165, 1);
+        width: 120px;
+    }
+
+    .value {
+        color: rgba(0, 0, 0, 1);
+        max-width: 280px;
+    }
+}
+
+.profileHeaderWrapper {
+    display: flex;
+
+    flex-direction: column;
+    gap: 16px;
+
+    @include media('min', 'mobile') {
+        flex-direction: row;
+        gap: 36px;
+    }
+}
+
+.profileImage {
+    border-radius: 50%;
+}
+
+.squareImage {
+    width: 150px;
+    height: 150px;
+    min-width: 150px;
+    min-height: 150px;
+    background: #bdbdbd;
+}
+
+.candidateName {
+    display: flex;
+    flex-direction: column;
+}

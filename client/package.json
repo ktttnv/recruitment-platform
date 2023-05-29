@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next -p 8181",
+    "build": "next build",
+    "start": "next start -p 8181",
+    "lint": "next lint",
+    "prettier": "prettier --write \"(components|constants|helpers|layouts|pages|services|types)/**/*.(tsx|ts|js)\""
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.2",
+    "@mui/x-data-grid": "^6.5.0",
+    "@mui/x-date-pickers": "^6.5.0",
+    "classnames": "^2.3.2",
+    "dayjs": "^1.11.7",
+    "mobx": "^6.9.0",
+    "mobx-react": "^7.6.0",
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.62.1",
+    "styled-components": "^5.3.5",
+    "ts-loader": "^9.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "@types/styled-components": "^5.1.25",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^4.7.4"
+  }
+}

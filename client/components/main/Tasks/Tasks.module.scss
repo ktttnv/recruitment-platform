@@ -1,0 +1,11 @@
+@import '../../../styles/mixins';
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    @include media('min', 'tablet') {
+        flex-direction: row;
+    }
+}

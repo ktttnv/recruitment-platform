@@ -1,0 +1,9 @@
+{
+    "files": ["server/index.ts"],
+	"exclude": ["node_modules"],
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "outDir": "dist",
+      "baseUrl": ".",
+    }
+}

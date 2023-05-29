@@ -1,0 +1,17 @@
+.salaryWrapper {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.deadlineSwitchWrapper {
+    display: flex;
+    align-content: center;
+    gap: 8px;
+
+    & p {
+        margin: 0;
+        margin-top: 4px;
+    }
+
+}
